@@ -41,4 +41,4 @@ redis-port = ${REIDS_PORT:-6379}
 EOS
 fi
 
-exec sh -c "$*"
+exec bash -c "$*"
